@@ -1,0 +1,281 @@
+\documentclass[11pt, a4paper,oneside]{book}
+\input{~/template/notes/preamble.tex}
+\title{{\Huge{\textbf{Physics}}}\\——IB}
+\author{}
+\date{}
+\begin{document}
+\input{~/template/notes/intro.tex}
+\pagestyle{empty}
+\chapter{Intro}
+\section{About Physics}
+\begin{definition}
+    A physical quantity is a feature of sth that can be measured. (Every measurement result has a numerical value and a unit)
+\end{definition}
+\chapter{Mechanics}
+\section{Dynamics}
+\subsection{Type of Forces}
+\begin{enumerate}
+    \setlength{\itemsep}{-1ex}
+    \setlength{\parsep}{-1ex}
+    \setlength{\topsep}{-1em}
+    \item Tension
+    \item Normal Reaction
+    \item Gravitational Force(Weight)
+    \item Friction
+    \item Buoyancy
+    \item Air Resistance
+\end{enumerate}
+\subsection{Newton's Law}
+\begin{theorem}[Newton's First Law]
+    A body will remain at rest or move with constant velocity unless acted upon by an unbalanced force.
+\end{theorem}
+
+Newton's first law can be used in two ways. \par 
+If the forces on a body are balanced then we can use Newton's first law to predict that it will be at rest
+or moving with constant velocity. \par If the forces are unbalanced then the body will not be at rest or moving with constant velocity. This means its velocity changes - in other words, it accelerates.
+\begin{theorem}[Newton's Second Law]
+When a force is applied to a body, the acceleration of a body is proportional to the force applied and inversely proportional to its mass. $$F = ma$$
+\end{theorem}\par
+Note that the direction of the acceleration is the same as the forces.
+\begin{definition}[Newton]
+    1 $ N $ of force is defined as the force which will give a mass of 1$kg$ an acceleration of 1$ms^{-1}$ in the direction of the force.
+\end{definition}
+\subsubsection{Elevator}
+Find the relative acceleration between the object and the elevator. \par
+If the lift is accelerating upwards, $R > W$, and vice versa. This is because when the lift is going up. The acceleration is higher than g. According to Newton's Second Law, $F = am$, a is greater and m remains the same, leading to an increase in $F$, the normal reaction.
+\subsubsection{Connected Bodies}
+
+In cases like this, we can use the following steps:
+\begin{enumerate}
+    \setlength{\itemsep}{-1ex}
+    \setlength{\parsep}{-1ex}
+    \item Draw the free-body diagram of the bodies that you're analyzing.
+    \item Resolve the forces into 2 perpendicular directions(horizontal and vertical).
+    \item Find the net force and use Newton's Second Law to determine the equation.
+    \setlength{\topsep}{-1em}
+\end{enumerate}
+\subsubsection{Terminal Speed}
+\begin{definition}[Terminal Speed]
+Steady speed is achieved by an object freely falling through a gas or liquid.
+\end{definition}
+
+Formation: The magnitude of the drag force depends on the speed of the object, and the direction of the drag force is always opposite to the motion of the object. So increasing speed will lead to an increase in the drag force, then decrease the resultant force and make an object reach terminal speed.
+\begin{theorem}[Newton's Third Law]
+    If body A exerts a force on body B then body B will exert an equal and opposite force on body A.
+\end{theorem}
+
+Action-Reaction pair:
+\begin{enumerate}
+    \setlength{\itemsep}{-1ex}
+    \setlength{\parsep}{-1ex}
+    \item Same in magnitude
+    \item Opposite in direction
+    \item acting on two objects
+    \setlength{\topsep}{-1em}
+\end{enumerate}
+\begin{example}
+If someone is pushing a car with force $F$. The car will push back on the person with a force $-F$.
+\end{example}
+\section{Work, Energy and Power}
+\subsection{Work}
+\begin{theorem}[Work]
+    Work done = force $\times$ displacement in the direction of the force.
+    $$W = F \times S$$
+\end{theorem}
+
+
+Note that work is a scalar, meaning it has no direction.
+\begin{definition}[Joule]
+    When a force of 1$N$ moves its point of application by 1$m$ in the direction of the force, 1$J$ of work is done.
+\end{definition}
+
+In a word, 1 joule(J) = 1 Newton(N) $\times$ Meter(m)\par
+$$ W = FS\cos{\theta}$$\par
+$\theta$ is the angle between the direction of the force and the direction of displacement.\par
+When $0\degree \le \theta < 90\degree$, $W$ > $0$, \textbf{positive work} is done by the force on the object.\par
+When $90\degree < \theta \le 180\degree$, $W$ < $0$, \textbf{negative work} is done on/against the force on the object.\par
+
+\subsection{Mechanical Energy}
+\begin{definition}[Energy]
+    The ability to do work is called energy.
+\end{definition}
+\subsubsection{Kinetic Energy}
+
+\begin{align*}
+    E_k = W & = FS\\
+    & = mas\\
+    & = \frac{1}{2}mv^2\\
+\end{align*}
+
+\begin{theorem}[Work-Kinetic  Energy Relation]
+    The work done by all forces acting on the object equals the change in kinetic energy of this object. 
+\begin{align*}
+    W & = FS\\
+    & = Fvt = ma v't \\
+    & = m(\frac{v-u}{t})(\frac{u+v}{2})t\\
+    & = \frac{1}{2}m(v^2 - u^2)\\
+\end{align*}
+\end{theorem}
+\subsubsection{Elastic Potential Energy}
+\begin{definition}[Elastic Potential Energy]
+    The energy stored in objects which have had their shape changed elastically.
+\end{definition}
+
+\begin{align*}
+    E_{ep} & = FS\\
+    & = (\frac{1}{2}\Delta x) (k \Delta x)\\
+    & = \frac{1}{2}k {\Delta x}^2 
+\end{align*}
+
+Note that this formula can only work \textbf{within the limit of proportionality}.
+\subsubsection{Gravitational Potential Energy}
+\begin{definition}[Gravitational Potential Energy]
+    The ability to do work because of its position.
+\end{definition}
+\[
+    \Delta E_{gp} = mg\Delta h = -W_g
+\]
+
+Note that $ \Delta h $ represents the difference of height between the initial and final location, \textbf{independent of the path}.\par
+Also, be aware that the zero point of gravitational potential energy is not stated, and only changes in potential energy are important.\par
+\subsection{Principle of Conservation of Energy}
+\begin{theorem}[The law of conservation of Energy]
+    Energy cannot be created or destroyed but is only transformed from one form to another.
+\end{theorem}
+\begin{definition}[Mechnical Energy]
+    \textbf{Total Mechanical Energy} is the sum of kinetic energy, gravitational potential energy and elastic potential energy.
+\end{definition}
+\[
+    E = E_k + E_p + E_H
+\]
+
+\begin{theorem}[Conservation of Mechanic Energy]
+    If the only force that does work is weight, the total mechanical energy of a system remains constant.	
+\[
+    \Delta E_k = W_{net} = W_{mg} = -\Delta E_p
+\]
+
+    So that the sum of $ \Delta E_k $ and $ \Delta E_{gp} $ is constant. 
+\end{theorem}
+
+\subsection{Power}
+
+\begin{definition}[Power]
+    The rate at which energy is transferred. It is calculated by
+\[
+    P = \frac{W}{t}
+\]
+\end{definition}
+
+Energy is measured in $ J / s $, or $ W $. 1 $ W $ = 1 $ J / s $. So $ 1Kwh = 3.6 \times 10^{6} J $.\par
+Besides, if the object is moving at a constant velocity, we can use
+\[
+    P = \frac{W}{t} = \frac{FS}{t} = FV
+\]
+
+\subsubsection{Efficiency}
+The input energy is turned into useful and useless energy when doing work.
+\[
+    E = \frac{W_u}{W_{t}} = \frac{P_w}{P_t}
+\]\par
+Note that in the deduction above, F is supposed to be \textbf{constant}.\par
+Whether $ p $ is instantaneous or not depends on $ v $.
+\section{Momentum and Impulse}
+\begin{definition}[Momentum]
+    The product of mass and velocity. Measured in $ kgms^{-1} $ or $ Ns $.
+\end{definition}
+\begin{definition}[Impulse]
+    The product of \textit{F} and the time the force act.	
+\end{definition}\par
+Impulse equals to change in momentum($ \overrightarrow{\Delta P} $) as well as the area under the curve of a \textbf{Force - Time} graph.
+\subsection{Newton's Law}
+\begin{definition}[Newton's First Law]
+    The momentum of an object remains constant unless a net force acts on it.	
+\end{definition}
+\begin{definition}[Newton's Second Law]
+    \[
+        F_{\text{net}} = m \frac{\Delta v}{\Delta t} = \frac{\Delta (mv)}{\Delta t} = \frac{\Delta P}{\Delta t}
+    \]	
+\end{definition}
+\begin{theorem}[Newton's Thrid Law]
+    The rate of change of momentum on the two bodies interacted by action and reaction forces are equal and opposite.
+\end{theorem}
+\[
+    -\Delta P_2 = \Delta P_1 \implies \Delta P_1 + \Delta P_2 = 0
+\]\par
+$ P_1 + P_2 $ is constant. Thus if no external force acts on a system, the total momentum of the system remains constant.
+\begin{theorem}[Conservation of Momentum]
+    When the net external force acting on a system is zero, the momentum does not change.	
+\end{theorem}
+\subsection{Collisions}
+\begin{table}[!ht]
+    \centering
+    \begin{tabular}{|c|c|c|c|}
+    \hline
+        ~ & Elastic Collision & Inelastic Collision & Expolsioin\\ \hline
+        Total Kinetic Energy & Conserved & Decrease & Increase \\ \hline
+        Total Momentum & Conserved & Conserved & Conserved \\ \hline
+        Total Energy & Conserved & Conserved & Conserved \\ \hline
+    \end{tabular}
+    \caption{(in)elastic}
+\end{table}
+According to the law of conservation of energy and the law of conservation of momentum, \par
+\[
+    \left\{\begin{matrix} 
+        m_1v_1 + m_2v_2 = m_1u_1 + m_2u_2 \\ 
+        \frac{1}{2}m_1{v_1}^2 + \frac{1}{2}m_2{v_2}^2 \leq \frac{1}{2} m_1{u_1}^2 + \frac{1}{2}m_2{u_2}^2\\
+        \end{matrix}\right. 
+\]\par
+The equation is achieved during an elastic collision.
+\section{Circular Motion}
+\begin{definition}[Uniform Circular Motion]
+    Motion in a circle at a constant speed.	
+\end{definition}
+\subsection{Quantities}
+\begin{definition}[Linear Speed]
+    Linear speed($ v $) is the distance traveled per unit time for a circular motion.
+    \[
+        v = \frac{\Delta s}{\Delta t}
+    \]
+\end{definition}
+\begin{definition}[Angular Speed]
+    Angular speed($ \omega $) is the angle moved around a circle per unit time.
+    \[
+        \omega = \frac{\Delta \theta}{\Delta t}
+    \]
+\end{definition}
+\begin{definition}[Angular Velocity]
+    Angular velocity($ \vec{\omega} $) is the change of angular displacement per unit time.
+\end{definition}
+\begin{definition}[Period]
+    Period($ T $) is the time taken for the object to complete one rotation.	
+\end{definition}
+\begin{definition}[Frequency]
+    Frequency($ f $) is the number of times an object goes around a circle per unit time.	
+\end{definition}
+\subsection{Relations}
+\[
+    T = \frac{1}{f}
+\]
+\[
+    v = \frac{2\pi r}{T} = 2\pi r f
+\]
+\[
+    \omega = \frac{2\pi}{T} = 2\pi f
+\]
+\[
+    v = \omega r
+\]
+\subsection{Centripetal Force \& Acceleration}
+Direction: points towards the center of the circle(perpendicular to the velocity).
+\[
+    a_c = \frac{v^2}{r} = {\omega}^2r = \frac{4{\pi}^2r}{T^2} = 4{\pi}^2rf^2
+\]
+\[
+    F_c = \frac{mv^2}{r} = m{\omega}^2r = \frac{4{\pi}^2rm}{T^2} = 4{\pi}^2rmf^2
+\]
+describe the graph: the maginitude of the slope of the graph is decreasing
+theorem/formulas: $ W + f = ma $ $ a $ is decreasing.
+explain: $ W, m $ constant, $ f $ is decreasing
+
+\end{document}

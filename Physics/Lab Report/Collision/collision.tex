@@ -1,0 +1,113 @@
+\documentclass[12pt,a4paper]{article}
+\input{~/template/report/preamble.tex}
+\author{ZHANGYIHENG 10.7 27}
+\title{Collisions}
+\date{}
+\begin{document}
+\setmainfont{Times New Roman}
+\setsansfont{Times New Roman}
+\begin{spacing}{1.25}
+\maketitle
+\tableofcontents
+\setlength{\parindent}{4ex}
+\newpage
+\section{Introcution}
+\subsection{Aim of the Experiment}
+In this experiment, we will investigate the changes of energy and momentum before and after a collision. This investigation aims to determine the extent to which the laws of conservation of energy and momentum hold true for different types of collisions.
+\subsection{Different Kinds of Collisions}
+There are several types of collisions in physics, including elastic collisions, perfect inelastic collisions, and partially inelastic collisions.
+
+An elastic collision is a collision where the objects collide and bounce off each other without any loss of kinetic energy. In other words, the total kinetic energy of the two objects before and after the collision remains the same.
+
+A perfectly inelastic collision is a type of inelastic collision where two objects stick together after the collision, losing all of their kinetic energy. 
+
+A partially inelastic collision is a type of inelastic collision where two objects stick together after the collision, but only lose some of their kinetic energy.
+\subsection{Apparatuses}
+\begin{enumerate}
+    \setlength{\itemsep}{-1ex}
+    \setlength{\parsep}{-1ex}
+    \setlength{\topsep}{-1em}
+    \item air track
+    \item gliders
+    \item digital timer
+    \item air pump
+    \item light gates
+    \item digital balance
+    \item sticks
+\end{enumerate}
+
+\section{Procedure of the Experiment}
+\subsection{Data Collecting}
+To start the experiment, I set up the air track and the air pump. Then, I placed a glider on the track and adjusted the air track until the glider remained still. After that, I installed light gates on one side of the track to monitor the time and velocity of the gliders. As the experiment involved gliders with varying masses, I loaded weights onto multiple gliders.
+I collected 4 sets of data from 4 different scenarios of the collisions:
+\begin{itemize}
+    \setlength{\itemsep}{-1ex}
+    \setlength{\parsep}{-1ex}
+    \setlength{\topsep}{-1em}
+    \item Elastic (with elastic rings on gliders), $ m_{1} = m_2 $.
+    \item Elastic (with elastic rings on gliders), $ m_1 \neq m_2 $.
+    \item Elastic (with elastic rings on gliders), $ m_1 = m_2 $.
+    \item Total inelastic(with stickers on gliders), $ m_1 = m_2, u_2 = 0 $.
+\end{itemize}
+where the velocity of $ m_1 $ is measured by light gate 1 and the velocity of $ m_{2} $ is measured by light gate 2.\par
+All the data collected from the experiment are included in the raw data table enclosed in the appendix.
+\subsection{Data Processing Examples}
+\subsubsection{Momentum Example}
+The formula for calculating momentum is \[
+    P = P_A + P_B = m_1u_1 + m_2u_2
+\]\par
+Thus, 
+\[
+\begin{aligned}
+    P & = m_1u_1 + m_2u_{2} \\
+    & = 0.179kg \times 0.374ms^{-1} + 0.179kg \times (-0.267 ms^{-1}) \\
+    & = 0.0669kgms^{-1} + ( -0.0478kgms^{-1}) \\ 
+    & = 0.0191kgms^{-1} \\
+\end{aligned}
+\]
+\subsubsection{Kinetic Energy Example}
+The formula for Kinetic energy is \[
+    K_e = \frac{1}{2}m_1{v_1}^2 + \frac{1}{2}m_2{v_2}^2
+\]\par
+Thus,\[
+    \begin{aligned}
+        K_e & = \frac{1}{2} \times 0.179 kg \times (0.374 ms^{-1})^2 + \frac{1}{2} \times 0.179kg \times (-0.267ms^{-1})^2 \\ 
+        & = 0.0125J + 0.00638J \\ 
+        & = 0.00189J
+    \end{aligned}
+\]
+\section{Conclusion and Evaluation}
+\subsection{Conclusion}
+The results showed that the momentum was always conserved in every kind of collision. \par
+In elastic collisions, the total kinetic energy before and after the collision remains constant. In inelastic collisions, the total kinetic energy decreases significantly.\par
+From the provided data, we can see that momentum was conserved in experiment A, and both momentum and kinetic energy underwent significant changes in experiments C and D.
+\subsection{Evaluation}
+In experiments A and B, according to theory, both kinetic energy and momentum were expected to be conserved. However, in practice, the momentum in experiment B showed significant changes, indicating that the experiment was not accurate. \par
+To improve the accuracy of the experiment, we can use other apparatuses to help us adjust the air track.
+\section{Appendixes}
+\subsection{Raw Data Table}
+\begin{table}[!ht]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|c|}
+    \hline
+          & $ m_{1}(kg) $& $ m_{2}(kg) $ & $ u_1(ms^{-1}) $ & $ v_{1}(ms^{-1}) $ & $ u_2(ms^{-1}) $ & $ v_{2}(ms^{-1}) $  \\ \hline
+        A & 0.179 & 0.179 & 0.374 & 0.353 & 0.267 & 0.247  \\ 
+        B & 0.179 & 0.221 & 0.511 & 0.349 & 0.251 & 0.466  \\ 
+        C & 0.179 & 0.180 & 0.817 & 0.112 & 0.914 & 0.259  \\ 
+        D & 0.179 & 0.179 & 1.01 & 0.392 & 0 & 0.392 \\ \hline
+    \end{tabular}
+\end{table}
+\subsection{Processed Data Table}
+\begin{table}[!ht]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|}
+    \hline
+        ~ & $ P^{\prime}(kgms^{-1}) $ & $ P(kgms^{-1}) $ & $ K_e^{\prime}(J) $ & $ K_e(J) $  \\ \hline
+        A & 0.0191 & 0.0189 & 0.0189 & 0.0166 \\ 
+        B & 0.036 & -0.0404 & 0.0303 & 0.0348 \\ 
+        C & -0.0173 & -0.0263 & 0.135 & 0.007 \\ 
+        D & 0.181 & 0 & 0.0913 & 0.0275 \\ \hline
+    \end{tabular}
+\end{table}
+\end{spacing}
+\end{document}

@@ -1,0 +1,11 @@
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Circular Motion}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Aim of the Experiment}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Apparatuses}{2}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Data Collection}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Procedure}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Screenshots}{2}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Raw Data Table}{3}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Data Processing}{3}{section.3}%
+\contentsline {section}{\numberline {4}Conclusion}{4}{section.4}%
+\contentsline {section}{\numberline {5}Evaluation}{4}{section.5}%
